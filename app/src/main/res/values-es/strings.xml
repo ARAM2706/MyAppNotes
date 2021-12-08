@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Enlace">DeliziuszAppNotas</string>
+    <string name="Audio">Audio</string>
+    <string name="tv1">ActivityMedia</string>
+    <string name="Anterior">Anterior</string>
+    <string name="tv2">grabadora</string>
+    <string name="Reproducir">Reproducir</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_search">search</string>
+    <string name="search">Search Demo</string>
+    <string name="submitted">submitted</string>
+
+    <string name="app_name">MyNotes</string>
+
+    <string name="title_tab0">NOTAS</string>
+    <string name="title_tab1">TAREAS</string>
+
+    <string name="btnNewNota">NUEVA NOTA</string>
+    <string name="btnNewTarea">NUEVA TAREA</string>
+
+    <string name="btnNewAlerta">NUEVA NOTIFICACION</string>
+
+
+    <string name="toast_creaNota">Crear nota</string>
+    <string name="toast_creaTarea">Crear tarea</string>
+    <string name="toast_creaAlerta">Crear alerta</string>
+
+
+    <string name="toast_notaCreada_">Nota insertada</string>
+    <string name="toast_notaCreadaProblem_">La nota no pudo ser insertada</string>
+
+    <string name="toast_tareaCreada">Tarea insertada</string>
+    <string name="toast_tareaCreadaProblem">La tarea no pudo ser insertada</string>
+
+    <string name="toast_alertaCreada">Alerta insertada</string>
+    <string name="toast_alertaCreadaProblem">La alerta no pudo ser insertada</string>
+
+
+    <string name="toast_notaEditada">Nota editada</string>
+    <string name="toast_notaEditadaProblem">La nota no pudo ser editada</string>
+
+    <string name="toast_tareaEditada">Tarea editada</string>
+    <string name="toast_tareaEditadaProblem">La tarea no pudo ser editada</string>
+
+    <string name="toast_alertaEditada">Alerta editada</string>
+    <string name="toast_alertaEditadaProblem">La alerta no pudo ser editada</string>
+
+
+
+    <string name="alert_Title">Opciones</string>
+    <string name="del_alert_Title">Confirmacion</string>
+    <string name="del_alert_Message">¿Eliminar Nota?</string>
+    <string name="del_alert_resultGood">Elemento eliminado</string>
+    <string name="del_alert_resultBad">El elelmento no pudo ser eliminado</string>
+
+    <string name="alert_opcEdit">Editar</string>
+    <string name="alert_opcAlert">Ver alertas</string>
+    <string name="alert_opcMult">Ver multimedia</string>
+    <string name="alert_opcDel">Eliminar</string>
+
+
+
+    <string name="card_fechaCreate">Creada:</string>
+    <string name="card_fechaLimit">Finaliza:</string>
+    <string name="card_checaStatusBAD">PENDIENTE</string>
+    <string name="card_checaStatusGOOD">CUMPLIDO</string>
+
+
+
+    <string name="btn_ingresa_addNota">AGREGAR NOTA</string>
+    <string name="btn_ingresa_addTarea">AGREGAR TAREA</string>
+    <string name="btn_ingresa_addNoti">AGREGAR NOTIFICACION</string>
+    <string name="btn_ingresa_editNota">EDITAR NOTA</string>
+    <string name="btn_ingresa_editTarea">EDITAR TAREA</string>
+    <string name="btn_ingresa_editNoti">EDITAR NOTIFICACION</string>
+
+    <string name="confirmToast_inNote">Ingresar nota</string>
+    <string name="confirmToast_inTarea">Ingresar tarea</string>
+    <string name="confirmToast_inNoti">Ingresar notificacion</string>
+
+    <string name="confirmToast_editNote">Nota editada</string>
+    <string name="confirmToast_editTarea">Tarea editada</string>
+    <string name="confirmToast_editNoti">Notificacion editada</string>
+
+
+
+    <string name="btnFecha">FECHA</string>
+    <string name="btnHora">HORA</string>
+
+    <string name="hint_titulo">Titulo</string>
+    <string name="hint_descri">Descripcion</string>
+    <string name="hint_fecha_create">Fecha de creacion</string>
+    <string name="hint_fecha_limite">Fecha limite</string>
+    <string name="hint_hora_limite">Hora limite</string>
+
+    <string name="check_label">Cumplida</string>
+
+    <string name="text_title1">Contenido:</string>
+    <string name="text_title2">Fecha de creacion:</string>
+    <string name="text_title3">Fecha limite de tarea:</string>
+
+</resources>

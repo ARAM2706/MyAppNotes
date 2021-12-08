@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.notapsavhll.appnotas">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.app.notapsavhll.appnotas.GaleriaVideo"></activity>
+        <activity android:name="com.app.notapsavhll.appnotas.Galeria" />
+        <activity android:name="com.app.notapsavhll.appnotas.Media.ActivityMediaAudio" />
+        <activity android:name="com.app.notapsavhll.appnotas.Media.ActivityMediaVideo" />
+        <activity android:name="com.app.notapsavhll.appnotas.CapturaVideo" />
+        <activity android:name="com.app.notapsavhll.appnotas.grabadora" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.mydomain.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="com.app.notapsavhll.appnotas.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.notapsavhll.appnotas.Datos.ActivityDatos" />
+        <activity android:name="com.app.notapsavhll.appnotas.Datos.ActivityNotifica" />
+        <activity android:name="com.app.notapsavhll.appnotas.Media.ActivityMedia" />
+
+        <service android:name="com.app.notapsavhll.appnotas.Servicio" />
+    </application>
+
+</manifest>
